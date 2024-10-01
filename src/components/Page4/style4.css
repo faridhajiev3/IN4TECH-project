@@ -39,6 +39,117 @@
     width: 700px;
 }
 
+/* Tədris Sahələri */
+
+.output {
+    border-radius: var(--xxLarge, 32px);
+    background: #F3F3F3;
+    padding: 60px 80px;
+}
+
+.output h2 {
+    color: var(--text-text-primary, #0E0E0E);
+    text-align: center;
+    font-family: var(--font-family-gotham);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.study-nav {
+    border-radius: var(--xBig, 24px);
+    background: var(--White, #FFF);
+    display: flex;
+    padding: 12px 24px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 0;
+}
+
+.study-nav a {
+    color: var(--text-text-primary, #0E0E0E);
+    font-family: var(--font-family-roboto);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 11px 32px;
+}
+
+.study-nav .active {
+    border-radius: var(--xxLarge, 32px);
+    background: var(--color-branding-third, #341AFB);
+    color: #fff;
+}
+
+.card-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardsw {
+    display: flex;
+    justify-content: space-between;
+    /* width: 76.5rem; */
+    /* align-content: flex-start; */
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cardsw .cardw {
+    display: flex;
+    width: 37.5rem;
+    height: 18.1875rem;
+    padding: 2rem 2.5rem;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 1.5rem;
+    flex-shrink: 0;
+    border-radius: 2rem;
+    background: #fff;
+}
+
+.cardws .cardw .card-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.cardsw .cardw svg path:first-child {
+    transition: fill 0.5s ease;
+}
+
+.card-details h3 {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32.81px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.card-details p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+}
+
+.cardsw .cardw .card-heading img:nth-child(1) {
+    width: 116px;
+    height: 116px;
+}
+
+.cardsw .cardw .card-heading img:nth-child(2) {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+
+
 /* Section Korporativ */
 
 .edit {

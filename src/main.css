@@ -35,6 +35,7 @@
 .container {
     padding: 0 65px;
 }
+
 /* Header Sectin */
 .wor {
     margin: 25px 0;
@@ -203,4 +204,111 @@
     text-align: center;
     font-size: 12px;
     line-height: 16px;
+}
+
+/* sorğu göndər */
+.file {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.contact-meslehet {
+    background-color: #F3F3F3;
+    border-radius: 32px;
+}
+
+.contact-meslehet h2 {
+    font-family: Gotham;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 80px 64px 25px 64px;
+    width: 680px;
+}
+
+.contact-meslehet img {
+    /* width: 680px; */
+    height: 519px;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+}
+
+.contact-qeydiyyat {
+    background-color: #F3F3F3;
+    border-radius: 32px;
+    padding: 80px 64px;
+    width: 680px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.contact-def-text h2 {
+    font-family: var(--font-family-gotham);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.contact-def-text h6 {
+    font-family: var(--font-family-roboto);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contact-form input,
+.contact-form select {
+    min-height: 56px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 14px;
+    outline: none;
+}
+
+.ad-soyad-inp {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ad-soyad-inp input {
+    width: 48%;
+}
+
+.cont-ferdi-korp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont-ferdi-korp div {
+    width: 48%;
+    height: 56px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 14px;
+    border-radius: 8px;
+}
+
+.contact-form button {
+    background-color: #0E0E0E;
+    color: #FFF;
+    padding: 16px 24px;
+    font-family: var(--font-family-roboto);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
