@@ -1,0 +1,106 @@
+.eng {
+    border-radius: var(--xxLarge, 32px);
+    background: var(--text-text-primary, #0E0E0E);
+    padding: 70px 80px 70px 80px;
+    font-family: var(--font-family-roboto);
+}
+
+.mostly {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eng img {
+    width: 350px;
+}
+
+.eng h1 {
+    color: var(--white, #fff);
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.eng h4 {
+    border-radius: var(--big, 12px);
+    background: var(--color-branding-first, #FFEA00);
+    padding: 4px 16px;
+    color: var(--text-text-primary, #0E0E0E);
+    font-size: 26px;
+    font-weight: 700;
+    display: inline-block;
+    margin: 8px 0 30px 0;
+}
+
+.eng h6 {
+    color: var(--white, #fff);
+    font-size: 20px;
+    font-weight: 400;
+    width: 700px;
+}
+
+/* Section Korporativ */
+
+.edit {
+    padding: 80px;
+    border-radius: var(--xxLarge);
+    background: #0E0E0E;
+    display: flex;
+    flex-direction: column;
+    margin: 48px 0;
+    align-items: flex-start;
+}
+
+.edit .want {
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-bold);
+    color: var(--white);
+    font-family: var(--font-family-gotham);
+}
+
+.edit .ans {
+    border-radius: var(--big, 12px);
+    background: var(--color-branding-first, #FFEA00);
+    padding: 4px 16px;
+    color: var(--text-text-primary, #0E0E0E);
+    font-size: 26px;
+    font-weight: 700;
+    display: inline-block;
+    margin: 8px 0 30px 0;
+}
+
+.edit .carts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-top: 41px;
+    justify-content: space-between;
+}
+
+.edit .carts .cart {
+    /* height: 241px; */
+    padding: 32px 40px;
+    border-radius: var(--xxLarge);
+    background: var(--white);
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; */
+    /* gap: 10px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: var(--font-family-roboto);
+}
+
+.cart .analika {
+    padding: 40px 0 10px 0;
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-bold);
+}
+
+.cart .desc {
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-regular);
+    line-height: 1.5;
+    width: 520px;
+    padding: 10px 0 40px 0;
+}
