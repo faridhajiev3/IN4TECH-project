@@ -1,5 +1,4 @@
-
-/* Header Main*/ 
+/* Header Main*/
 
 
 /* UX/UI Section */
@@ -236,7 +235,7 @@
 
 
 .prog1 {
-    /* height: 108px; */
+    height: 108px;
     width: 100%;
     display: flex;
     padding-top: 16px;
@@ -259,7 +258,7 @@
 }
 
 .prog2 {
-    /* height: 108px; */
+    height: 108px;
     width: 100%;
     display: flex;
     padding-top: 16px;
@@ -284,15 +283,24 @@
 .prog3 {
     width: 100%;
     display: flex;
-    padding-top: 16px;
+    padding-top: 10px;
+    height: 108px;
+}
+
+.prog3 img {
+    width: 120px;
 }
 
 .yellow-part3 {
+    /* height: 108px; */
     background-color: #ffea00;
     width: 60%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .black-part3 {

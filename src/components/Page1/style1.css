@@ -1,7 +1,8 @@
+/* yoxlama Section */
 .eng {
     border-radius: var(--xxLarge, 32px);
-    background: var(--text-text-primary, #0E0E0E);
-    padding: 70px 80px 70px 80px;
+    background: var(--color-branding-bg-color, #F3F3F3);
+    padding: 10px 80px 80px 80px;
     font-family: var(--font-family-roboto);
 }
 
@@ -16,7 +17,7 @@
 }
 
 .eng h1 {
-    color: var(--white, #fff);
+    color: var(--text-text-primary, #0E0E0E);
     font-size: 56px;
     font-weight: 700;
 }
@@ -33,13 +34,44 @@
 }
 
 .eng h6 {
-    color: var(--white, #fff);
+    color: #000;
     font-size: 20px;
     font-weight: 400;
     width: 700px;
 }
 
-/* Tədris Sahələri */
+.dizayn {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.uiux {
+    background-color: var(--white);
+    padding: 20px 24px;
+    border-radius: var(--xxLarge, 32px);
+    width: 288px;
+    color: var(--text-text-primary, #0E0E0E);
+}
+
+.dizayn h3 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.uiux p {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 16px;
+}
+
+.active {
+    border-radius: var(--xxLarge, 32px);
+    background: var(--color-branding-second, #7161EF);
+    color: var(--white, #fff);
+}
+
+/* Tədris Sahaləri */
 
 .output {
     border-radius: var(--xxLarge, 32px);
@@ -147,25 +179,27 @@
     cursor: pointer;
 }
 
-
-
-
-/* Section Korporativ */
+/* Korparativ Üstünlüklər */
 
 .edit {
     padding: 80px;
-    border-radius: var(--xxLarge);
-    background: #0E0E0E;
+    border-radius: var(--xxLarge, 32px);
+    background: #F3F3F3;
     display: flex;
     flex-direction: column;
     margin: 48px 0;
     align-items: flex-start;
 }
 
+.line {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .edit .want {
     font-size: var(--font-size-large);
     font-weight: var(--font-weight-bold);
-    color: var(--white);
+    color: #0E0E0E;
     font-family: var(--font-family-gotham);
 }
 
@@ -202,13 +236,8 @@
     font-family: var(--font-family-roboto);
 }
 
-.line {
-    display: flex;
-    justify-content: flex-end;
-}
-
 .cart .analika {
-    padding: 10px 0 10px 0;
+    padding: 40px 0 10px 0;
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-bold);
 }
@@ -219,4 +248,33 @@
     line-height: 1.5;
     width: 520px;
     padding: 10px 0 40px 0;
+}
+
+/* karyera hədəflərini reallaşdır! */
+.alt {
+    padding: 64px 80px;
+    border-radius: var(--xxLarge, 32px);
+    background: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    margin: 48px 0;
+    align-items: flex-start;
+}
+
+.alt h2 {
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-bold);
+    color: #0E0E0E;
+    font-family: var(--font-family-gotham);
+}
+
+.alt h4 {
+    border-radius: var(--big, 12px);
+    background: var(--color-branding-first, #FFEA00);
+    padding: 4px 16px;
+    color: var(--text-text-primary, #0E0E0E);
+    font-size: 26px;
+    font-weight: 700;
+    display: inline-block;
+    margin: 8px 0 30px 0;
 }
