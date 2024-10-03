@@ -7,6 +7,7 @@
     /* padding: 150px 90px 60px 90px; */
     padding: 80px;
     transition: background-image 0.5s ease;
+    border-radius: var(--xLarge, 24px);
 }
 
 /* .sliderWords {
@@ -416,6 +417,133 @@
     font-family: var(--font-family-roboto);
     font-size: 22px;
     font-weight: 400;
+}
+
+/* special */
+
+
+.special-one {
+    background-color: #0E0E0E;
+    padding: 48px 80px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    border-radius: 32px;
+}
+
+.prosfp {
+    font-family: Inter;
+    font-size: 50.943px;
+    font-weight: 600;
+    line-height: 61.557px;
+}
+
+.home-stepcard-cont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.home-step {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.home-step h2 {
+    font-family: Gotham;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.home-step-line {
+    width: 150px;
+    height: 2px;
+    background-color: white;
+}
+
+.home-step-desc {
+    width: 186.89px;
+}
+
+.homestep-desc-heading {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.homestep-desc-main {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.home-statistic {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.home-statistic-sing {
+    width: 354px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.home-sta-yellow button {
+    background-color: #FFEA00;
+    border: none;
+    padding: 12px 32px;
+    border-radius: 256px;
+}
+
+.home-sta-yellow button h2 {
+    font-family: Gotham;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.home-sta-text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.home-top-works-cont p {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.home-top-works-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.home-top-works {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.home-top-works1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.home-top-works2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* Suallariniz var */
