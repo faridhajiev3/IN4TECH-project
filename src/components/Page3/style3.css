@@ -170,3 +170,40 @@
 }
 
 /* Section Javascript */
+@media only screen and (max-width: 1500px) {}
+
+@media only screen and (max-width: 1200px) {
+
+    .dizayn {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .eng h1 {
+        font-size: 50px;
+    }
+
+    .eng h6 {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .uiux{
+        margin-top: 15px;
+    }
+    .eng {
+        padding: 30px 80px;
+    }
+
+    .mostly {
+        flex-direction: column;
+    }
+
+    .open h3 {
+        font-size: 18px;
+    }
+    .room{
+        display: none;
+    }
+}

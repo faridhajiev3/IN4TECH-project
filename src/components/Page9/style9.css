@@ -46,11 +46,7 @@
 .s-knowledge {
     border-radius: var(--xxLarge, 32px);
     background: #F3F3F3;
-    display: flex;
     padding: 80px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 41px;
     margin-top: 48px;
 }
 
@@ -63,9 +59,7 @@
 
 .s-knowledge .s-cards {
     display: flex;
-    width: 1224px;
-    align-items: center;
-    align-content: center;
+    justify-content: space-between;
     gap: 24px;
     flex-wrap: wrap;
 }
@@ -114,4 +108,92 @@
 
 .s-card:hover .s-text p {
     color: white;
+}
+
+@media screen and (max-width: 1450px) {
+    .s-knowledge .s-cards .s-card {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .eng img {
+        width: 300px;
+    }
+
+    .eng h1 {
+        font-size: 48px;
+    }
+
+    .eng h6 {
+        width: 600px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .mostly {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .eng img {
+        width: 250px;
+        margin-bottom: 20px;
+    }
+
+    .eng h1 {
+        font-size: 40px;
+    }
+
+    .eng h6 {
+        width: 100%;
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .eng {
+        padding: 40px 20px;
+    }
+
+    .eng img {
+        width: 200px;
+    }
+
+    .eng h1 {
+        font-size: 32px;
+    }
+
+    .eng h4 {
+        font-size: 22px;
+    }
+
+    .eng h6 {
+        font-size: 14px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .eng img {
+        width: 150px;
+    }
+
+    .eng h1 {
+        font-size: 28px;
+    }
+
+    .eng h4 {
+        font-size: 18px;
+    }
+
+    .eng h6 {
+        font-size: 12px;
+    }
 }

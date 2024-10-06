@@ -81,113 +81,6 @@
     margin: 8px 0;
 }
 
-/* Tədris Sahaləri */
-
-.output {
-    border-radius: var(--xxLarge, 32px);
-    background: #F3F3F3;
-    padding: 60px 80px;
-}
-
-.output h2 {
-    color: var(--text-text-primary, #0E0E0E);
-    text-align: center;
-    font-family: var(--font-family-gotham);
-    font-size: 40px;
-    font-weight: 700;
-}
-
-.study-nav {
-    border-radius: var(--xBig, 24px);
-    background: var(--White, #FFF);
-    display: flex;
-    padding: 12px 24px;
-    justify-content: space-between;
-    align-items: center;
-    margin: 24px 0;
-}
-
-.study-nav a {
-    color: var(--text-text-primary, #0E0E0E);
-    font-family: var(--font-family-roboto);
-    font-size: 18px;
-    font-weight: 500;
-    padding: 11px 32px;
-}
-
-.study-nav .active {
-    border-radius: var(--xxLarge, 32px);
-    background: var(--color-branding-third, #341AFB);
-    color: #fff;
-}
-
-.card-heading {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.cardsw {
-    display: flex;
-    justify-content: space-between;
-    /* width: 76.5rem; */
-    /* align-content: flex-start; */
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.cardsw .cardw {
-    display: flex;
-    width: 37.5rem;
-    height: 18.1875rem;
-    padding: 2rem 2.5rem;
-    flex-direction: column;
-    justify-content: center;
-    /* align-items: center; */
-    gap: 1.5rem;
-    flex-shrink: 0;
-    border-radius: 2rem;
-    background: #fff;
-}
-
-.cardws .cardw .card-heading {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 20px;
-}
-
-.cardsw .cardw svg path:first-child {
-    transition: fill 0.5s ease;
-}
-
-.card-details h3 {
-    font-family: Roboto;
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 32.81px;
-    text-align: left;
-    padding-bottom: 20px;
-}
-
-.card-details p {
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 18.75px;
-    text-align: left;
-}
-
-.cardsw .cardw .card-heading img:nth-child(1) {
-    width: 116px;
-    height: 116px;
-}
-
-.cardsw .cardw .card-heading img:nth-child(2) {
-    width: 60px;
-    height: 60px;
-    cursor: pointer;
-}
 
 /* Korparativ Üstünlüklər */
 
@@ -234,7 +127,7 @@
 
 .edit .carts .cart {
     /* height: 241px; */
-    padding: 32px 40px;
+    padding: 32px 30px;
     border-radius: var(--xxLarge);
     background: var(--white);
     /* display: flex;
@@ -265,10 +158,7 @@
     padding: 64px 80px;
     border-radius: var(--xxLarge, 32px);
     background: #F3F3F3;
-    display: flex;
-    flex-direction: column;
     margin: 48px 0;
-    align-items: flex-start;
 }
 
 .alt h2 {
@@ -546,79 +436,71 @@
     flex-wrap: wrap;
 }
 
-/* Suallariniz var */
 
-.help {
-    padding: 64px 80px;
-    border-radius: var(--large, 20px);
-    background: var(--color-branding-third, #341AFB);
-    margin: 20px 0;
-    position: relative;
-    overflow: hidden;
-    margin-top: 48px;
+
+
+@media only screen and (max-width: 1200px) {
+
+
+    .edit .carts {
+        justify-content: center;
+    }
+
+    .corporate-video {
+        /* display: flex; */
+        width: 34.75rem;
+        height: 26.5rem;
+    }
+
+    .dinamic-cards {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
 }
 
-.question {
-    color: var(--white);
+@media only screen and (max-width: 800px) {
 
+    .cart .analika {
+        font-size: 20px;
+    }
+
+    .cart .desc {
+        font-size: var(--font-size-small);
+        width: 220px;
+    }
+
+    .alt h2 {
+        font-size: 30px;
+    }
+
+    .corporate-video {
+        /* display: flex; */
+        width: 30.75rem;
+        height: 22.5rem;
+    }
+
+    .prosfp {
+        font-family: var(--font-family-inter);
+        font-size: 36px;
+    }
+
+    .home-top-works1 {
+        gap: 20px;
+    }
+
+    .home-top-works2 {
+        gap: 20px;
+    }
 }
 
-.help h2 {
-    font-family: var(--font-family-gotham);
-    font-size: var(--font-size-large, 40);
-    font-weight: var(--font-weight-bold, 700);
-}
-
-.question .form {
-    font-family: var(--font-family-roboto);
-    font-size: 20px;
-    font-weight: var(--font-weight-regular);
-    padding: 36px 0 32px 0;
-}
-
-.inputs {
-    display: flex;
-    justify-content: space-between;
-}
-
-.inputs input {
-    padding: 10px 30px;
-    color: var(--Gray-500, #667085);
-    font-family: var(--font-family-inter);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    border-radius: 8px;
-    background: var(--white, #FFF);
-    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
-    border: none;
-    z-index: 5;
-}
-
-.inputs .btn {
-    padding: 16px 70px;
-    color: var(--white, #FFF);
-    font-family: var(--font-family-roboto);
-    font-size: 16px;
-    font-weight: 400;
-    background-color: #0E0E0E;
-    border-radius: 8px;
-}
-
-.help img {
-    width: 300px;
-}
-
-.imgButtom {
-    position: absolute;
-    top: -90px;
-    right: -90px;
-    opacity: 0.2;
-}
-
-.imgTop {
-    position: absolute;
-    bottom: -90px;
-    left: -90px;
-    opacity: 0.2;
+@media only screen and (max-width: 600px) {
+    .corporate-video {
+        /* display: flex; */
+        width: 26.75rem;
+        height: 18.5rem;
+    }
 }

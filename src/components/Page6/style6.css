@@ -165,7 +165,7 @@
     margin-top: 48px;
 }
 
-.console h2 {
+.lenov {
     color: var(--text-text-primary, #0E0E0E);
     font-family: var(--font-family-gotham);
     font-size: 40px;
@@ -173,52 +173,83 @@
     text-align: center;
 }
 
-.views {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    padding-top: 40px;
-    justify-content: space-between;
+
+@media screen and (max-width: 1200px) {
+    .eng img {
+        width: 300px;
+    }
+
+    .eng h1 {
+        font-size: 48px;
+    }
+
+    .eng h6 {
+        width: 600px;
+        font-size: 18px;
+    }
 }
 
-.rotaye {
-    display: flex;
+@media screen and (max-width: 1000px) {
+    .mostly {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
-.times {
-    padding: 8px 16px;
-    border-radius: var(--xxLarge, 32px);
-    background: var(--color-branding-first, #FFEA00);
+@media screen and (max-width: 800px) {
+    .eng img {
+        width: 250px;
+        margin-bottom: 20px;
+    }
+
+    .eng h1 {
+        font-size: 40px;
+    }
+
+    .eng h6 {
+        width: 100%;
+        font-size: 16px;
+    }
+
 }
 
-.local {
-    padding: 8px 16px;
-    border-radius: var(--xxLarge, 32px);
-    background: var(--color-branding-bg-color, #F3F3F3);
+@media screen and (max-width: 600px) {
+    .eng {
+        padding: 40px 20px;
+    }
+
+    .eng img {
+        width: 200px;
+    }
+
+    .eng h1 {
+        font-size: 32px;
+    }
+
+    .eng h4 {
+        font-size: 22px;
+    }
+
+    .eng h6 {
+        font-size: 14px;
+        width: 100%;
+    }
 }
 
-.view {
-    padding: 32px 40px;
-    border-radius: var(--xxLarge, 32px);
-    background: var(--White, #FFF);
-}
+@media screen and (max-width: 400px) {
+    .eng img {
+        width: 150px;
+    }
 
-.view-words {
-    padding: 24px 0;
-}
+    .eng h1 {
+        font-size: 28px;
+    }
 
-.view h4 {
-    color: var(--text-text-primary, #0E0E0E);
-    font-family: var(--font-family-roboto);
-    font-size: 26px;
-    font-weight: 700; 
-}
+    .eng h4 {
+        font-size: 18px;
+    }
 
-.view p {
-    color: var(--text-text-primary, #0E0E0E);
-    font-family: var(--font-family-roboto);
-    font-size: 16px;
-    font-weight: 400;
-    width: 520px;
-    padding: 16px 0;
+    .eng h6 {
+        font-size: 12px;
+    }
 }

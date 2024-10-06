@@ -45,6 +45,7 @@
     border-radius: var(--xxLarge, 32px);
     background: var(--color-branding-bg-color, #F3F3F3);
     padding: 60px 80px 40px 80px;
+    margin-top: 48px;
 }
 
 .future h2 {
@@ -83,8 +84,8 @@
 
 .tedb-tab-card-img,
 .tedb-tab-card-img img {
-    width: 392px;
-    height: 284px;
+    width: 100%;
+    height: auto;
     border-radius: 12px;
 }
 
@@ -134,4 +135,95 @@
     border: none;
     /* margin: 0 auto; */
     cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    .eng img {
+        width: 300px;
+    }
+
+    .eng h1 {
+        font-size: 48px;
+    }
+
+    .eng h6 {
+        width: 600px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .mostly {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .tedb-tab-cards-cont2 {
+        justify-content: center;
+    }
+
+    .tedb-tab-card {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .eng img {
+        width: 250px;
+        margin-bottom: 20px;
+    }
+
+    .eng h1 {
+        font-size: 40px;
+    }
+
+    .eng h6 {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .tedb-tab-part {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .eng {
+        padding: 40px 20px;
+    }
+
+    .eng img {
+        width: 200px;
+    }
+
+    .eng h1 {
+        font-size: 32px;
+    }
+
+    .eng h4 {
+        font-size: 22px;
+    }
+
+    .eng h6 {
+        font-size: 14px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .eng img {
+        width: 150px;
+    }
+
+    .eng h1 {
+        font-size: 28px;
+    }
+
+    .eng h4 {
+        font-size: 18px;
+    }
+
+    .eng h6 {
+        font-size: 12px;
+    }
 }
