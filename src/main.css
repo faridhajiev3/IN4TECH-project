@@ -945,7 +945,11 @@
         justify-content: center;
     }
 }
-
+@media screen and (max-width: 500px){
+    .buttons{
+        display: none;
+    }
+}
 @media screen and (max-width: 400px) {
     .foo {
         padding: 24px 20px 0;
