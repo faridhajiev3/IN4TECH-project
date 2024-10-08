@@ -81,8 +81,6 @@
     padding: 80px;
     border-radius: var(--xxLarge);
     background: var(--color-branding-second);
-    display: flex;
-    flex-direction: column;
     margin: 48px 0;
 }
 
@@ -93,36 +91,31 @@
     font-family: var(--font-family-gotham);
 }
 
-.edit .carts {
+.card-section {
     display: flex;
-    flex-wrap: wrap;
     gap: 24px;
-    padding-top: 41px;
-    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
-.edit .carts .cart {
-    /* height: 241px; */
-    padding: 32px 40px;
-    width: 580px;
-    border-radius: var(--xxLarge);
-    background: var(--white);
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start; */
-    /* gap: 10px; */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-family: var(--font-family-roboto);
+.card {
+    background-color: white;
+    border-radius: 32px;
+    width: 100%;
+    flex: 1 1 calc(50% - 20px);
 }
 
-.cart .analika {
+.card-container {
+    padding: 40px 32px;
+}
+
+.card .analika {
     padding: 40px 0 10px 0;
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-bold);
 }
 
-.cart .desc {
+.card .desc {
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-regular);
     line-height: 1.5;
@@ -547,10 +540,6 @@
         text-align: center;
     }
 
-    .edit .carts {
-        justify-content: center;
-    }
-
     .utf {
         /* flex-direction: column; */
         flex-wrap: wrap;
@@ -586,11 +575,7 @@
         width: 400px;
     }
 
-    .edit .carts .cart {
-        width: 100%;
-    }
-
-    .cart .desc {
+    .card .desc {
         width: auto;
     }
 
@@ -598,7 +583,7 @@
         font-size: var(--font-size-medium);
     }
 
-    .cart .analika {
+    .card .analika {
         font-size: 24px;
     }
 

@@ -70,6 +70,7 @@
     text-align: center;
 }
 
+
 .card-section {
     display: flex;
     gap: 24px;
@@ -132,36 +133,29 @@
 }
 
 .btn-section {
-    justify-content: space-between;
     display: flex;
-    /* gap: 24px; */
+    gap: 24px;
 }
 
-.btn-second button {
+button {
     padding: 11px 16px;
     border-radius: 8px;
-    /* flex: 1; */
-    width: 100%;
+    flex: 1;
     border: 1px solid #5D48FC;
     text-align: center;
     cursor: pointer;
 }
 
 .btn-first {
-    border: solid 1px #5D48FC;
-    outline: none;
     color: #5D48FC;
     background-color: white;
-    padding: 11px 20px;
 }
 
 .btn-second {
-    border: solid 1px #5D48FC;
-    outline: none;
     color: white;
     background-color: #5D48FC;
-    padding: 11px 40px;
 }
+
 
 /* all */
 

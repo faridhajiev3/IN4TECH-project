@@ -442,25 +442,17 @@
 
 .cardsw {
     display: flex;
-    justify-content: space-between;
-    /* width: 76.5rem; */
-    /* align-content: flex-start; */
-    gap: 20px;
+    gap: 24px;
+    width: 100%;
     flex-wrap: wrap;
 }
 
 .cardsw .cardw {
-    display: flex;
-    width: 36rem;
-    height: 18.1875rem;
-    padding: 2rem 2.5rem;
-    flex-direction: column;
-    justify-content: center;
-    /* align-items: center; */
-    gap: 1.5rem;
-    flex-shrink: 0;
-    border-radius: 2rem;
-    background: #fff;
+    background-color: white;
+    border-radius: 32px;
+    width: 100%;
+    flex: 1 1 calc(50% - 20px);
+    padding: 32px 40px;
 }
 
 .cardws .cardw .card-heading {
@@ -676,7 +668,7 @@
 }
 
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1300px) { 
     .inputs input {
         padding: 10px;
     }
@@ -754,10 +746,6 @@
         display: block;
     }
 
-    .cardsw {
-        justify-content: center;
-    }
-
     /* tedris */
     .item {
         display: none;
@@ -827,10 +815,6 @@
     .footer-box-details {
         flex-direction: row;
         flex-wrap: wrap;
-    }
-
-    .contact-meslehet {
-        /* width: 450px; */
     }
 
     .file {
@@ -945,11 +929,13 @@
         justify-content: center;
     }
 }
-@media screen and (max-width: 500px){
-    .buttons{
+
+@media screen and (max-width: 500px) {
+    .buttons {
         display: none;
     }
 }
+
 @media screen and (max-width: 400px) {
     .foo {
         padding: 24px 20px 0;
