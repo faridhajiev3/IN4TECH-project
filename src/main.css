@@ -878,7 +878,7 @@
     /* tedris */
     .cardsw .cardw {
         width: 25.5rem;
-        height: 18.1875rem;
+        height: 22.1875rem;
         padding: 2rem 2.5rem;
     }
 
@@ -933,6 +933,14 @@
 @media screen and (max-width: 500px) {
     .buttons {
         display: none;
+    }
+    .cardsw{
+        justify-content: center;
+    }
+    .cardsw .cardw {
+        width: 25.5rem;
+        height: 24.1875rem;
+        padding: 2rem 2.5rem;
     }
 }
 
