@@ -604,6 +604,7 @@
 .teacher-desc {
     display: flex;
     flex-direction: column;
+    height: auto;
     align-items: center;
     padding: 16px 0 24px 0;
 }
@@ -668,7 +669,7 @@
 }
 
 
-@media only screen and (max-width: 1300px) { 
+@media only screen and (max-width: 1300px) {
     .inputs input {
         padding: 10px;
     }
@@ -685,6 +686,10 @@
     .contact-qeydiyyat {
         width: 100%;
         padding: 60px 40px;
+    }
+
+    .contact-qeydiyyat {
+        margin-top: 48px;
     }
 
     .contact-meslehet h2 {
@@ -885,12 +890,17 @@
     .teacherCont {
         width: 46%;
     }
-
+    .outline {
+        padding: 60px 20px;
+    }
+    .outline h2{
+        font-size: 34px;
+    }
 }
 
 @media screen and (max-width: 600px) {
     .container {
-        padding: 0 10px;
+        padding: 0 2px;
     }
 
     .foo {
@@ -928,19 +938,36 @@
     #teacherSec {
         justify-content: center;
     }
+
+    .help {
+        padding: 64px 40px;
+    }
+
+    .output {
+        padding: 60px 20px;
+    }
+    .question h2{
+        font-size: 34px;
+    }
 }
 
 @media screen and (max-width: 500px) {
     .buttons {
         display: none;
     }
-    .cardsw{
+
+    .cardsw {
         justify-content: center;
     }
+
     .cardsw .cardw {
         width: 25.5rem;
         height: 24.1875rem;
         padding: 2rem 2.5rem;
+    }
+
+    .help h2 {
+        font-size: 34px;
     }
 }
 

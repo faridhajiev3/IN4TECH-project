@@ -6,7 +6,7 @@
     font-family: var(--font-family-roboto);
 }
 
-.mostly {
+.mostly { 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -117,6 +117,7 @@
     .s-knowledge .s-cards .s-card {
         width: 100%;
         align-items: center;
+        height: auto;
         text-align: center;
     }
 }
@@ -157,7 +158,12 @@
         width: 100%;
         font-size: 16px;
     }
-
+    .s-knowledge {
+        padding: 80px 20px;
+    }
+    .s-knowledge .s-title p{
+        font-size: 34px;
+    }
 }
 
 @media screen and (max-width: 600px) {

@@ -47,6 +47,20 @@
     background: var(--text-text-primary, #0E0E0E);
     padding: 80px;
 }
+.title-telimci{
+    display: flex;
+    justify-content: center;
+}
+.debug h2 {
+    color: var(--text-text-primary, #0E0E0E);
+    border-radius: var(--big, 12px);
+    background: var(--color-branding-first, #FFEA00);
+    padding: 4px var(--xBig, 16px);
+    font-family: var(--font-family-gotham);
+    font-size: 40px;
+    display: inline-block;
+    font-weight: 700;
+}
 
 #imgSection-telimci {
     display: flex;
@@ -209,6 +223,10 @@
     .teacherImg {
         width: 46%;
     }
+
+    .debug {
+        padding: 80px 0;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -241,8 +259,12 @@
     .teacherImg {
         width: 80%;
     }
+
     #imgSection-telimci {
         justify-content: center;
+    }
+    .debug h2{
+        font-size: 30px;
     }
 }
 
@@ -261,5 +283,8 @@
 
     .eng h6 {
         font-size: 12px;
+    }
+    .debug h2{
+        font-size: 22px;
     }
 }

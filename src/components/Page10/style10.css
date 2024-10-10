@@ -405,6 +405,26 @@
         left: 0;
     }
 
+    .card .img img{
+        width: 90%;
+    }
+
+    .card .img-2 img{
+        width: 90%;
+    }
+
+    .your-supporters {
+        padding: 40px 20px;
+    }
+
+    .your-supporters .window {
+        font-size: 32px;
+    }
+
+    .supporters a {
+        font-size: 16px;
+    }
+
     .your-supporters .first-part,
     .your-supporters .second-part {
         width: 100%;
@@ -415,16 +435,12 @@
         font-size: 24px;
     }
 
-    .second-part .text p {
-        margin-left: 0;
-    }
-
     .second-part .text {
         font-size: 18px;
     }
 
-    .your-supporters .second-part .title p {
-        margin-left: 0;
+    .row .your-supporters {
+        padding: 60px 20px;
     }
 }
 
@@ -466,23 +482,20 @@
     .your-supporters .second-part {
         width: 100%;
         height: auto;
-        padding: 50px;
-        margin-top: 30px;
     }
 
-    .second-part .title p {
-        font-size: 20px;
-        margin-left: 10px;
+    .your-supporters .second-part .title p {
+        font-size: 18px;
     }
 
     .second-part .text {
-        margin-left: 10px;
         font-size: 16px;
     }
 
     .second-part .text p {
-        line-height: 1.6;
+        font-size: 16px;
     }
+
 }
 
 @media screen and (max-width: 400px) {
@@ -517,16 +530,15 @@
     .your-supporters .first-part,
     .your-supporters .second-part {
         width: 100%;
+        padding: 10px;
         height: auto;
     }
 
     .second-part .title p {
         font-size: 18px;
-        margin-left: 5px;
     }
 
     .second-part .text {
-        margin-left: 5px;
         font-size: 14px;
     }
 }

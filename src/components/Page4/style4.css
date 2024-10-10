@@ -73,7 +73,7 @@
 .edit .carts {
     display: flex;
     gap: 24px;
-    width: 100%;
+    width: 100%; 
     flex-wrap: wrap;
 }
 
@@ -110,7 +110,7 @@
 
 @media screen and (max-width: 1520px) {
     .edit {
-        padding: 80px 40px;
+        padding: 80px 20px;
     }
 
     .edit .carts {
@@ -139,6 +139,12 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .edit .want{
+        font-size: 32px;
+    }
+    .edit .ans{
+        font-size: 24px;
+    }
     .mostly {
         flex-direction: column;
         text-align: center;

@@ -431,11 +431,6 @@
 
 @media only screen and (max-width: 1200px) {
 
-
-    /* .edit .carts {
-        justify-content: center;
-    } */
-
     .alt {
         padding: 48px 60px;
     }
@@ -523,6 +518,12 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .special-one{
+        padding: 48px 40px;
+    }
+    .edit {
+        padding: 80px 40px;
+    }
     .corporate-video {
         /* display: flex; */
         width: 26.75rem;

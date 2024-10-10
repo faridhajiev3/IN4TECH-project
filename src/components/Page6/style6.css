@@ -197,6 +197,12 @@ button {
     }
 }
 
+@media screen and (max-width: 766px) {
+    .info-section {
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .eng img {
         width: 250px;
@@ -212,6 +218,13 @@ button {
         font-size: 16px;
     }
 
+    .news {
+        padding: 48px 20px;
+    }
+
+    .console {
+        padding: var(--Large, 48px) 20px;
+    }
 }
 
 @media screen and (max-width: 600px) {

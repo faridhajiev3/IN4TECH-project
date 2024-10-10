@@ -535,7 +535,7 @@
 
     .uiux {
         width: 100%;
-        height: 170px;
+        height: auto;
         margin-top: 15px;
         text-align: center;
     }
@@ -568,11 +568,11 @@
 
 @media only screen and (max-width: 800px) {
     .eng h1 {
-        font-size: 46px;
+        font-size: 42px;
     }
 
     .eng h6 {
-        width: 400px;
+        width: auto;
     }
 
     .card .desc {
@@ -623,16 +623,42 @@
         flex-direction: column;
     }
 
-}
+    .eng img {
+        width: 300px;
+    }
 
-/* @media only screen and (max-width: 700px) {
-    .cart .desc {
-        width: auto;
+    .board {
+        padding: 80px 40px;
+    }
+    .eng {
+        padding: 10px 40px 80px 40px;
+    }
+    .spaces{
+        padding: 80px 40px;
+    }
+    .edit{
+        padding: 80px 40px;
     }
 }
+
 
 @media only screen and (max-width: 600px) {
-    .cart .desc {
-        width: auto;
+    .prog1 {
+        height: auto;
     }
-} */
+
+    .prog2 {
+        height: auto;
+    }
+
+    .prog3 {
+        height: auto;
+    }
+
+    .prog3 img {
+        display: none;
+    }
+    .open h3{
+        font-size: 24px;
+    }
+}

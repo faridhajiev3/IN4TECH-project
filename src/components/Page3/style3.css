@@ -186,14 +186,18 @@
     .eng h6 {
         width: auto;
     }
-}
-
-@media only screen and (max-width: 800px) {
     .uiux{
         margin-top: 15px;
     }
+}
+
+@media only screen and (max-width: 800px) {
+    .uiux {
+        height: auto;
+    }
+
     .eng {
-        padding: 30px 80px;
+        padding: 30px 40px;
     }
 
     .mostly {
@@ -203,7 +207,28 @@
     .open h3 {
         font-size: 18px;
     }
-    .room{
+
+    .room {
         display: none;
+    }
+
+    .question {
+        padding: var(--Large, 48px) 20px;
+    }
+
+    .eng img {
+        width: 300px;
+    }
+
+    .eng h1 {
+        font-size: 46px;
+    }
+
+    .uiux h5 {
+        font-size: 20px;
+    }
+
+    .uiux p {
+        font-size: 15px;
     }
 }
