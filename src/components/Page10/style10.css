@@ -49,23 +49,26 @@
     font-weight: 700;
 }
 
+.teaching-methods {
+    margin-top: 48px;
+}
+
 .row .cardsf {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     gap: 24px;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .cardsf .card {
     border-radius: var(--xxLarge, 32px);
     background: var(--color-branding-bg-color, #F3F3F3);
     position: relative;
-    display: flex;
-    width: 670px;
-    height: 358px;
+    /* display: flex; */
     padding: 32px 40px;
-    flex-direction: column;
-    align-items: flex-start;
+    border-radius: 32px;
+    width: 100%;
+    flex: 1 1 calc(50% - 20px);
 }
 
 .card .header {
@@ -81,22 +84,6 @@
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
-}
-
-.card .img {
-    width: 447.809px;
-    height: 188.818px;
-    position: absolute;
-    left: 116.096px;
-    bottom: 0px;
-}
-
-.card .img-2 {
-    width: 372.434px;
-    height: 162.691px;
-    position: absolute;
-    left: 153.783px;
-    bottom: 0px;
 }
 
 /* Yol */
@@ -185,7 +172,6 @@
     font-family: var(--font-family-roboto);
     font-size: 28px;
     font-weight: 700;
-    margin-left: 40px;
 }
 
 .second-part .text {
@@ -200,7 +186,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 40px;
 }
 
 /* again */
@@ -329,15 +314,7 @@
     opacity: 0.2;
 }
 
-@media screen and (max-width: 1400px) {
-    .row .cardsf {
-        justify-content: center;
-    }
-
-    .cardsf .card {
-        width: 100%;
-    }
-}
+@media screen and (max-width: 1400px) {}
 
 @media screen and (max-width: 1200px) {
     .eng img {
@@ -397,22 +374,6 @@
         font-size: 16px;
     }
 
-    .card .img {
-        left: 0;
-    }
-
-    .card .img-2 {
-        left: 0;
-    }
-
-    .card .img img{
-        width: 90%;
-    }
-
-    .card .img-2 img{
-        width: 90%;
-    }
-
     .your-supporters {
         padding: 40px 20px;
     }
@@ -441,6 +402,12 @@
 
     .row .your-supporters {
         padding: 60px 20px;
+    }
+    .card .img img{
+        width: 100%;
+    }
+    .card .img-2 img{
+        width: 100%;
     }
 }
 
@@ -496,6 +463,27 @@
         font-size: 16px;
     }
 
+    .choose {
+        flex-direction: column;
+    }
+
+    .eng-eng {
+        padding: 10px 20px;
+    }
+
+    .eng-eng img {
+        width: 300px;
+    }
+
+    .your-supporters .supporters {
+        display: none;
+    }
+    .cardsf .card{
+        padding: 32px 30px;
+    }
+    .row .header h1{
+        font-size: 46px;
+    }
 }
 
 @media screen and (max-width: 400px) {

@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+} 
 
 .eng img {
     width: 350px;
@@ -75,7 +75,7 @@
     display: flex;
     gap: 24px;
     width: 100%;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 }
 
 .card {
