@@ -119,7 +119,7 @@
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-regular);
     line-height: 1.5;
-    width: 520px;
+    /* width: 520px; */
     padding: 10px 0 40px 0;
 }
 
@@ -349,11 +349,10 @@
     object-position: center;
 }
 
-
-
 .utf {
     display: flex;
     gap: 20px;
+    justify-content: space-between;
 }
 
 .white-words {
@@ -368,8 +367,8 @@
     padding: 36px;
     border-radius: var(--xxLarge, 32px);
     background: var(--White, #FFF);
-    width: 900px;
-    height: 200px;
+    width: 100%;
+    height: auto;
 }
 
 .skils h4 {
@@ -399,22 +398,34 @@
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
+    padding-top: 20px;
 }
 
 .can {
     padding: 36px;
     border-radius: var(--xxLarge, 32px);
     background: var(--White, #FFF);
-    width: 900px;
-    height: 376px;
+    width: 100%;
+    height: auto;
     padding: 36px;
     margin-top: 24px;
+}
+
+.can h4 {
+    color: var(--text-text-secondary, #3E3E3E);
+    font-family: var(--font-family-roboto);
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.can ul {
+    padding-top: 20px;
 }
 
 .can ul li {
     display: flex;
     align-items: center;
-    padding-top: 10px;
+    padding: 6px 0 6px 0;
 }
 
 /* Sertifikat Section */
@@ -507,6 +518,31 @@
 /* Footer Section Section*/
 
 @media only screen and (max-width: 1300px) {
+
+    .utf {
+        flex-direction: column;
+    }
+
+    /* .skils{
+        width: 80%;
+    }
+    .can{
+        width: 80%;
+    } */
+    .person {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .terminal img {
+        width: 76%;
+    }
+
+    .white-words {
+        width: 76%;
+    }
+
     .port {
         width: auto;
         font-size: 18px;
@@ -540,11 +576,6 @@
         text-align: center;
     }
 
-    .utf {
-        /* flex-direction: column; */
-        flex-wrap: wrap;
-    }
-
 }
 
 @media only screen and (max-width: 900px) {
@@ -563,6 +594,10 @@
 
     .awake h1 {
         font-size: 40px;
+    }
+
+    .terminal {
+        padding: 64px 20px;
     }
 }
 
@@ -630,13 +665,16 @@
     .board {
         padding: 80px 40px;
     }
+
     .eng {
         padding: 10px 40px 80px 40px;
     }
-    .spaces{
+
+    .spaces {
         padding: 80px 40px;
     }
-    .edit{
+
+    .edit {
         padding: 80px 40px;
     }
 }
@@ -658,7 +696,26 @@
     .prog3 img {
         display: none;
     }
-    .open h3{
+
+    .open h3 {
         font-size: 24px;
+    }
+
+    .terminal {
+        padding: 64px 10px;
+    }
+
+    .terminal h2 {
+        font-size: 34px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .terminal img {
+        width: 90%;
+    }
+
+    .white-words {
+        width: 90%;
     }
 }
