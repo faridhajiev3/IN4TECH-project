@@ -42,7 +42,7 @@
     border-radius: 20px;
     background: #341AFB;
     padding: 36px 80px;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: space-between;
 }
@@ -50,6 +50,7 @@
 .navbar {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 60px;
 }
 
@@ -62,6 +63,10 @@
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.logo i {
+    display: none;
 }
 
 .logo svg {
@@ -102,6 +107,26 @@
     border: 1px solid var(--white, #FFF);
     color: var(--white);
     background: #341AFB;
+}
+
+.wor-nav {
+    padding: 15px 0 0 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-in-out;
+    text-align: center;
+}
+
+.wor-nav li {
+    color: var(--white, #FFF);
+    font-family: var(--font-family-roboto);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 0 0 0;
+}
+
+.addnav {
+    max-height: 200px;
 }
 
 /* Footer Section */
@@ -743,6 +768,10 @@
 
 
 @media screen and (max-width: 1200px) {
+    .logo i {
+        display: block;
+    }
+
     .study-nav .links {
         display: none;
     }
@@ -890,10 +919,12 @@
     .teacherCont {
         width: 46%;
     }
+
     .outline {
         padding: 60px 20px;
     }
-    .outline h2{
+
+    .outline h2 {
         font-size: 34px;
     }
 }
@@ -946,7 +977,8 @@
     .output {
         padding: 60px 20px;
     }
-    .question h2{
+
+    .question h2 {
         font-size: 34px;
     }
 }
