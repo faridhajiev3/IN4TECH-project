@@ -8,8 +8,8 @@
 
 .mostly {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between; 
+    align-items: center; 
 } 
 
 .eng img {
@@ -17,7 +17,7 @@
 }
 
 .eng h1 {
-    color: var(--text-text-primary, #0E0E0E);
+    color: var(--text-text-primary, #0E0E0E); 
     font-size: 56px;
     font-weight: 700;
 }
@@ -40,7 +40,7 @@
     width: 700px;
 }
 
-/* Gələcək Section */
+/* Gələcək dəyişməyə hazır olanlarındır Section */
 .future {
     border-radius: var(--xxLarge, 32px);
     background: var(--color-branding-bg-color, #F3F3F3);

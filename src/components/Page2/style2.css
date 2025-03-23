@@ -1,15 +1,15 @@
-/* Header Main*/
+/* Header Main papqasinii icinde*/
 
 
-/* UX/UI Section */
+/* UX/UI Dizayn tədrisi Section */
 
 .eng {
-    border-radius: var(--xxLarge, 32px);
+    border-radius: var(--xxLarge, 32px); 
     background: var(--color-branding-bg-color, #F3F3F3);
     padding: 10px 80px 80px 80px;
     font-family: var(--font-family-roboto);
 }
- 
+
 .mostly {
     display: flex;
     justify-content: space-between;
@@ -75,7 +75,7 @@
     color: var(--white, #fff);
 }
 
-/* İstəyirsinizsə Section */
+/* İstəyirsinizsə, UX/UI dizayneri peşəsi sizin üçündür Section */
 
 .edit {
     padding: 80px;
@@ -96,6 +96,7 @@
     gap: 24px;
     width: 100%;
     flex-wrap: wrap;
+    margin-top: 30px;
 }
 
 .card {
@@ -123,7 +124,7 @@
     padding: 10px 0 40px 0;
 }
 
-/* 240 Section */
+/* Tədris proqramı section */
 
 .spaces {
     border-radius: var(--xxLarge, 32px);
@@ -137,13 +138,29 @@
     padding: 32px 40px;
     margin-top: 12px;
 }
-
+.spaces .task{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font-family-roboto);
+    color: var(--text-text-primary, #0E0E0E);
+}
 .spaces h2 {
     color: var(--text-text-primary, #0E0E0E);
     font-family: var(--font-family-gotham);
     font-size: 40px;
     font-weight: 700;
     padding: 0 0 28px 0;
+}
+
+.spaces h4 {
+    border-radius: var(--big, 12px);
+    background: var(--color-branding-first, #FFEA00);
+    padding: 4px 16px;
+    color: var(--text-text-primary, #0E0E0E);
+    font-family: var(--font-family-roboto);
+    font-size: 26px;
+    display: inline;
+    font-weight: 700;
 }
 
 .open {
@@ -177,35 +194,22 @@
     background: var(--color-branding-bg-color, #F3F3F3);
 }
 
-/* .item-nav {
-    height: 0;
-    overflow: hidden;
-    display: none;
-    transition: height 1s ease-in-out;
-} */
-
 .item-nav {
     height: 0;
     overflow: hidden;
     transition: height 1s ease-in-out;
-    padding: 0 0 0 20px;
-    /* list-style-type: disc !important;  */
-    list-style-type: disc !important;
+    padding: 10px 0 0 20px;
 }
 
-/* .item-nav.show {
-    max-height: 500px;
-    height: auto;
-} */
-
 .item-nav li {
+    list-style-type: disc !important;
     color: #000;
     font-family: var(--font-family-roboto);
     font-size: 20px;
     font-weight: 400;
 }
 
-/* Maaşınız Section */
+/* Maaşınız təcrübə ilə artacaq Section */
 
 .board {
     margin-top: 48px;
@@ -305,7 +309,7 @@
     padding: 30px;
 }
 
-/* Bacariqlar Section */
+/* Təlimi bitirdikdən sonra CV-in Section */
 
 .terminal {
     border-radius: var(--xxLarge, 32px);
@@ -401,6 +405,13 @@
     padding-top: 20px;
 }
 
+.main-skils .skils-item p {
+    color: var(--text-text-secondary, #3E3E3E);
+    font-family: var(--font-family-roboto);
+    font-size: 18px;
+    font-weight: 500;
+}
+
 .can {
     padding: 36px;
     border-radius: var(--xxLarge, 32px);
@@ -426,9 +437,14 @@
     display: flex;
     align-items: center;
     padding: 6px 0 6px 0;
+    gap: 10px;
+    color: #000;
+    font-family: var(--font-family-roboto);
+    font-size: 18px;
+    font-weight: 400;
 }
 
-/* Sertifikat Section */
+/* Hər yerdə tanınan rəsmi sertifikat sahibi olacaqsan! Section */
 
 .awake {
     background-color: #272727;
@@ -513,7 +529,7 @@
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
-
+/* Suallarınız var? Biz burdayıq!  section ile footer main.css icinde*/
 
 /* Footer Section Section*/
 

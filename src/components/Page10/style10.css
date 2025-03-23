@@ -1,4 +1,4 @@
-/* Karyera Mərkəzi */
+/* Karyera Mərkəzi section*/
 .eng {
     border-radius: var(--xxLarge, 32px);
     background: var(--text-text-primary, #0E0E0E);
@@ -13,7 +13,7 @@
 }
 
 .eng img {
-    width: 350px;
+    width: 350px; 
 }
 
 .eng h1 {
@@ -40,7 +40,7 @@
     width: 700px;
 }
 
-/* learning */
+/* Öyrətmə metodlarımız section */
 
 .row .header h1 {
     color: var(--text-text-primary, #0E0E0E);
@@ -86,7 +86,7 @@
     font-weight: 400;
 }
 
-/* Yol */
+/* Bu yolda sizə dəstək olacaqlar section */
 
 .row .your-supporters {
     /* display: flex; */
@@ -188,8 +188,7 @@
     line-height: normal;
 }
 
-/* again */
-/* Karyera Mərkəzi */
+/* Təhsil modeli section */
 .eng-eng {
     border-radius: var(--xxLarge, 32px);
     background: var(--color-branding-bg-color, #F3F3F3);
@@ -238,81 +237,6 @@
     outline: none;
 }
 
-/* sual */
-.help {
-    padding: 64px 80px;
-    border-radius: var(--large, 20px);
-    background: var(--color-branding-third, #341AFB);
-    margin: 20px 0;
-    position: relative;
-    overflow: hidden;
-    margin-top: 48px;
-}
-
-.question {
-    color: var(--white);
-
-}
-
-.help h2 {
-    font-family: var(--font-family-gotham);
-    font-size: var(--font-size-large, 40);
-    font-weight: var(--font-weight-bold, 700);
-}
-
-.question .form {
-    font-family: var(--font-family-roboto);
-    font-size: 20px;
-    font-weight: var(--font-weight-regular);
-    padding: 36px 0 32px 0;
-}
-
-.inputs {
-    display: flex;
-    justify-content: space-between;
-}
-
-.inputs input {
-    padding: 10px 30px;
-    color: var(--Gray-500, #667085);
-    font-family: var(--font-family-inter);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    border-radius: 8px;
-    background: var(--white, #FFF);
-    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
-    border: none;
-    z-index: 5;
-}
-
-.inputs .btn {
-    padding: 16px 70px;
-    color: var(--white, #FFF);
-    font-family: var(--font-family-roboto);
-    font-size: 16px;
-    font-weight: 400;
-    background-color: #0E0E0E;
-    border-radius: 8px;
-}
-
-.help img {
-    width: 300px;
-}
-
-.imgButtom {
-    position: absolute;
-    top: -90px;
-    right: -90px;
-    opacity: 0.2;
-}
-
-.imgTop {
-    position: absolute;
-    bottom: -90px;
-    left: -90px;
-    opacity: 0.2;
-}
 
 @media screen and (max-width: 1400px) {}
 

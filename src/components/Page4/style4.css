@@ -1,8 +1,10 @@
+/* Korporativ Tədris section */
+
 .eng {
     border-radius: var(--xxLarge, 32px);
     background: var(--text-text-primary, #0E0E0E);
     padding: 70px 80px 70px 80px;
-    font-family: var(--font-family-roboto);
+    font-family: var(--font-family-roboto); 
 }
 
 .mostly {
@@ -16,7 +18,7 @@
 }
 
 .eng h1 {
-    color: var(--white, #fff);
+    color: var(--white, #fff); 
     font-size: 56px;
     font-weight: 700;
 }
@@ -38,9 +40,9 @@
     font-weight: 400;
     width: 700px;
 }
+/* Tədris Sahələri section main.css icinde*/
 
-
-/* Section Korporativ */
+/* Korporativ üstünlüklərimizlə fərqlənin section */
 
 .edit {
     padding: 80px;
@@ -107,7 +109,7 @@
     width: 520px;
     padding: 10px 0 40px 0;
 }
-
+/* Məsləhətləşmək üçün sorğu göndərin section main.css icinde */
 @media screen and (max-width: 1520px) {
     .edit {
         padding: 80px 20px;

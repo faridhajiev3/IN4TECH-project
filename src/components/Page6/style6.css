@@ -1,4 +1,4 @@
-/* Tədbirlər */
+/* Tədbirlər section*/
 .eng {
     border-radius: var(--xxLarge, 32px);
     background: var(--color-branding-bg-color, #F3F3F3);
@@ -13,7 +13,7 @@
 } 
 
 .eng img {
-    width: 350px;
+    width: 350px; 
 }
 
 .eng h1 {
@@ -40,7 +40,7 @@
     width: 700px;
 }
 
-/* all */
+/* Tədbirlərdən xəbərdar ol section */
 .news {
     border-radius: var(--xxLarge, 32px);
     background: #F3F3F3;
@@ -157,7 +157,7 @@ button {
 }
 
 
-/* all */
+/* Bütün tədbirlər section */
 
 .console {
     padding: var(--Large, 48px) 80px;

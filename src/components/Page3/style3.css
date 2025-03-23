@@ -1,4 +1,4 @@
-/* Əlaqə Qurmaq Section */
+/* Əlaqə qurmaq üçün Section */
 
 .eng {
     border-radius: var(--xxLarge, 32px);
@@ -9,8 +9,8 @@
 
 .mostly {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between;  
+    align-items: center; 
 }
 
 .eng img {
@@ -68,106 +68,8 @@
     font-weight: 400;
     padding: 10px 0 0 0;
 }
+/* Məsləhətləşmək üçün sorğu göndərin section main.css icinde */
 
-
-/* Ən çox verilən suallar Section */
-
-.question {
-    padding: var(--Large, 48px) 80px;
-    border-radius: var(--xxLarge, 32px);
-    background: #F3F3F3;
-    margin-top: 48px;
-}
-
-.question h2 {
-    color: var(--text-text-primary, #0E0E0E);
-    font-family: var(--font-family-gotham);
-    font-size: 40px;
-    font-weight: 700;
-    text-align: center;
-}
-
-.room {
-    background: var(--white, #FFF);
-    padding: 12px 24px;
-    display: flex;
-    justify-content: space-evenly;
-    font-family: var(--font-family-roboto);
-    border-radius: var(--Big, 20px);
-}
-
-.room p {
-    color: var(--text-text-primary, #0E0E0E);
-    font-size: 18px;
-    font-weight: 500;
-    padding: 11px 32px;
-}
-
-.room .active {
-    border-radius: var(--large, 20px);
-    background: var(--color-branding-third, #341AFB);
-    color: #fff;
-}
-
-.sunny {
-    border-radius: var(--xxLarge, 32px);
-    background: var(--White, #FFF);
-    padding: 32px 40px;
-    margin-top: 12px;
-}
-
-.open {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: var(--font-family-roboto);
-    color: var(--text-text-primary, #0E0E0E);
-}
-
-.open h3 {
-    font-size: 22px;
-    font-weight: 500;
-}
-
-.plus {
-    display: flex;
-    width: 60px;
-    height: 60px;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: var(--ultraLarge, 128px);
-    background: var(--color-branding-bg-color, #F3F3F3);
-}
-
-/* .item-nav {
-    height: 0;
-    overflow: hidden;
-    display: none;
-    transition: height 1s ease-in-out;
-} */
-
-.item-nav {
-    height: 0;
-    overflow: hidden;
-    transition: height 1s ease-in-out;
-    padding: 0 0 0 20px;
-    /* list-style-type: disc !important;  */
-    list-style-type: disc !important;
-}
-
-/* .item-nav.show {
-    max-height: 500px;
-    height: auto;
-} */
-
-.item-nav p {
-    color: #000;
-    font-family: var(--font-family-roboto);
-    font-size: 20px;
-    font-weight: 400;
-}
 
 /* Section Javascript */
 @media only screen and (max-width: 1500px) {}

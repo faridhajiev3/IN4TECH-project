@@ -1,4 +1,4 @@
-/* Haqqımızda */
+/* Haqqımızda section*/
 .eng {
     border-radius: var(--xxLarge, 32px);
     background: var(--text-text-primary, #0E0E0E);
@@ -8,7 +8,7 @@
 
 .mostly {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
 }
 
@@ -38,7 +38,7 @@
     width: 700px;
 }
 
-/* Korparativ Üstünlüklər */
+/* In4Tech Academy-nin üstünlükləri */
 
 .edit {
     padding: 80px;
@@ -103,74 +103,7 @@
     padding: 10px 0 40px 0;
 }
 
-/* Vizyon */
-
-.row .your-supporters {
-    padding: 60px 80px;
-    border-radius: var(--xxLarge, 32px);
-    background: #F3F3F3;
-    margin-top: 48px;
-}
-
-.your-supporters .window {
-    color: var(--text-text-primary, #0E0E0E);
-    font-family: var(--font-family-gotham);
-    font-size: 40px;
-    font-weight: 700;
-    text-align: center;
-}
-
-.your-supporters .monster {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.your-supporters .first-part {
-    width: 600px;
-    height: 380px;
-    flex-shrink: 0;
-    background: var(--White, #FFF);
-    border-radius: var(--xxLarge, 32px);
-    overflow: hidden;
-}
-
-.your-supporters .first-part img {
-    width: 100%;
-}
-
-.your-supporters .second-part {
-    display: flex;
-    width: 600px;
-    height: 380px;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    border-radius: var(--xxLarge, 32px);
-    background: var(--White, #FFF);
-}
-
-.your-supporters .second-part .title p {
-    color: var(--text-text-primary, #0E0E0E);
-    font-family: var(--font-family-roboto);
-    font-size: 28px;
-    font-weight: 700;
-    margin-left: 40px;
-}
-
-.second-part .text {
-    width: 550px;
-}
-
-.second-part .text p {
-    color: var(--text-text-primary, #0E0E0E);
-    font-family: var(--font-family-roboto);
-    font-size: 20px;
-    font-weight: 400;
-    margin-left: 40px;
-}
-
-/* Bizim Deyerlerimimz */
+/* Tələbələr həm nəzəri, həm də praktiki biliklər əldə edirlər section */
 .s-knowledge {
     border-radius: var(--xxLarge, 32px);
     background: #F3F3F3;
@@ -237,90 +170,6 @@
     color: white;
 }
 
-/* tez-tez verilen suallar */
-.question {
-    padding: var(--Large, 48px) 80px;
-    border-radius: var(--xxLarge, 32px);
-    background: #F3F3F3;
-    margin-top: 48px;
-}
-
-.question h2 {
-    color: var(--text-text-primary, #0E0E0E);
-    font-family: var(--font-family-gotham);
-    font-size: 40px;
-    font-weight: 700;
-    text-align: center;
-}
-
-.room {
-    background: var(--white, #FFF);
-    padding: 12px 24px;
-    display: flex;
-    justify-content: space-evenly;
-    font-family: var(--font-family-roboto);
-    border-radius: var(--Big, 20px);
-}
-
-.room p {
-    color: var(--text-text-primary, #0E0E0E);
-    font-size: 18px;
-    font-weight: 500;
-    padding: 11px 32px;
-}
-
-.room .active {
-    border-radius: var(--large, 20px);
-    background: var(--color-branding-third, #341AFB);
-    color: #fff;
-}
-
-.sunny {
-    border-radius: var(--xxLarge, 32px);
-    background: var(--White, #FFF);
-    padding: 32px 40px;
-    margin-top: 12px;
-}
-
-.open {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: var(--font-family-roboto);
-    color: var(--text-text-primary, #0E0E0E);
-}
-
-.open h3 {
-    font-size: 22px;
-    font-weight: 500;
-}
-
-.plus {
-    display: flex;
-    width: 60px;
-    height: 60px;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: var(--ultraLarge, 128px);
-    background: var(--color-branding-bg-color, #F3F3F3);
-}
-
-.item-nav {
-    height: 0;
-    overflow: hidden;
-    transition: height 1s ease-in-out;
-    padding: 0 0 0 20px;
-    list-style-type: disc !important;
-}
-
-.item-nav p {
-    color: #000;
-    font-family: var(--font-family-roboto);
-    font-size: 20px;
-    font-weight: 400;
-}
 
 
 

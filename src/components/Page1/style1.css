@@ -1,18 +1,13 @@
-/* yoxlama Section */
+/* Kodlaşdırmanın sirri başlamaqdır. Section */
 .sliderIn {
     background: url("https://s3-alpha-sig.figma.com/img/11c6/a026/cda468b23ace4d9a71f60dfc1de94e86?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=eDYhlTLunJJa-Enbaow6cKV508ImTjHATvXUQ-wD1ga5tbZ0KLcIa0vFPyhzDHJecPe41MFDHgTK-NwGkMMpYD-zRlwhH3Gy5fqRKOChjrFrttjnkg3CiuR2voWPAIjveFV1nhhulETDwt-rlX7rIPLHOL5VA0WrO3IsbTET5mwRoTd9v8Z~C35bKarGvksWGGVfd0d5iQBAi4rAkyz7yVr8pmV9tCdCumZOxC3hD2AcdjEzHGwAQHMg1l9x6FdzwYrl-5eoTHOVNxXBryxAv7VPE-SZEWjiOL7Q6Uk~mGJJl1s1TJyQpzPEs68y2ymli4oJNlFnbJgvSGbUki-x4A__");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-    /* padding: 150px 90px 60px 90px; */
+    background-repeat: no-repeat; 
     padding: 80px;
-    transition: background-image 0.5s ease;
+    transition: background-image 0.5s ease; 
     border-radius: var(--xLarge, 24px);
 }
-
-/* .sliderWords {
-    padding: 0 0 120px 0;
-} */
 
 .sliderIn h2 {
     color: #FFF;
@@ -27,7 +22,6 @@
     color: #FFF;
     font-size: 20px;
     font-weight: 400;
-    /* padding: 10px 0; */
     font-family: var(--font-family-roboto);
     line-height: 1.5;
 }
@@ -41,7 +35,6 @@
 .part-document {
     width: 142px;
     height: 6px;
-    /* background-color: #eaeaea; */
     border: solid 2px #eaeaea;
     cursor: pointer;
 }
@@ -82,16 +75,13 @@
 }
 
 
-/* Korparativ Üstünlüklər */
+/* In4Tech Academy-nin üstünlükləri Section */
 
 .edit {
     padding: 80px;
     border-radius: var(--xxLarge, 32px);
     background: #F3F3F3;
-    display: flex;
-    flex-direction: column;
     margin: 48px 0;
-    align-items: flex-start;
 }
 
 .line {
@@ -143,11 +133,10 @@
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-regular);
     line-height: 1.5;
-    width: 520px;
     padding: 10px 0 40px 0;
 }
 
-/* karyera hədəflərini reallaşdır! */
+/* Korporativ təlimlərlə Section */
 .alt {
     padding: 64px 80px;
     border-radius: var(--xxLarge, 32px);
@@ -174,9 +163,9 @@
 }
 
 .corporate-video {
-    width: 39.75rem;
-    height: 32.5rem;
-    padding: 2.25rem;
+    width: 636px;
+    height: 520px;
+    padding: 36px;
     gap: 0.625rem;
     border-radius: 2rem;
     position: relative;
@@ -269,7 +258,7 @@
 .statistic-card-dark-heading h2 {
     border-radius: var(--Rounded, 256px);
     background: var(--color-branding-first, #FFEA00);
-    padding: 12px 24px;
+    padding: 12px 16px;
     color: var(--text-text-primary, #0E0E0E);
     font-family: var(--font-family-gotham);
     font-size: 40px;
@@ -289,7 +278,7 @@
     background-size: 195.298% 132.597%;
     background-repeat: no-repeat; */
     width: 225px;
-    /* height: 135px; */
+    height: 120px;
 }
 
 .statistic-card-dark p {
@@ -299,7 +288,7 @@
     font-weight: 400;
 }
 
-/* special */
+/* Tələbələrin keçdiyi proseslər Section */
 
 
 .special-one {
@@ -313,7 +302,7 @@
 }
 
 .prosfp {
-    font-family: Inter;
+    font-family: var(--font-family-inter);
     font-size: 50.943px;
     font-weight: 600;
     line-height: 61.557px;
@@ -332,7 +321,7 @@
 }
 
 .home-step h2 {
-    font-family: Gotham;
+    font-family: var(--font-family-gotham);
     font-size: 40px;
     font-weight: 700;
 }
@@ -383,19 +372,19 @@
 }
 
 .home-sta-yellow button h2 {
-    font-family: Gotham;
+    font-family: var(--font-family-gotham);
     font-size: 40px;
     font-weight: 700;
 }
 
 .home-sta-text {
-    font-family: Roboto;
+    font-family: var(--font-family-roboto);
     font-size: 16px;
     font-weight: 500;
 }
 
 .home-top-works-cont p {
-    font-family: Roboto;
+    font-family: var(--font-family-roboto);
     font-size: 28px;
     font-weight: 500;
 }
@@ -470,7 +459,7 @@
 
     .cart .desc {
         font-size: var(--font-size-small);
-        width: auto;
+        width: 300px;
     }
 
 
@@ -518,12 +507,14 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .special-one{
+    .special-one {
         padding: 48px 40px;
     }
+
     .edit {
-        padding: 80px 40px;
+        padding: 80px 20px;
     }
+
     .corporate-video {
         /* display: flex; */
         width: 26.75rem;
@@ -541,6 +532,10 @@
 }
 
 @media only screen and (max-width: 450px) {
+    .cart .desc {
+        width: auto;
+    }
+
     .alt {
         padding: 12px 16px;
     }
